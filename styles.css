@@ -53,7 +53,6 @@
 .nav__links {
     display: flex;
     align-items: center;
-    /width: 100%;
     height: 50px;
 }
 
@@ -73,7 +72,7 @@
     color: white;
     font-size: 16px;
     border: none;
-    border-radius: 30px;
+    border-radius: 50px;
     margin: 2px;
     transition: all 300ms ease;
 }
@@ -96,20 +95,19 @@ li {
     text-wrap: nowrap;
 }
 
-.header__row {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 50%;
-}
-
-
 .header__container {
     width: 100%;
-    height: 600px;
-    display: flex;
-    justify-content: space-around;
     padding: 96px 0;
+}
+
+.header__row {
+    display: flex;
+}
+
+.header__description {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
 }
 
 .header {
@@ -122,40 +120,40 @@ li {
     margin: 32px 0;
 }
 
+.input__container {
+    position: relative;  
+}
+
 .header__email--input {
-    width: 40%;
+    width: 100%;
     padding: 20px 192px 20px 32px;
-    position: absolute;
     border-radius: 50px;
     border: 2px solid rgb(229, 231, 235);
     font-size: 16px;
     font-weight: 500;
+    opacity: 0.5;
     z-index: 1;
+}
+
+.header__email {
+    height: 68px;
+    display: flex;
+    align-items: center;
+}
+
+.header__email--input:hover {
+    border-color: rgba(160, 174, 192);
 }
 
 .header__email--btn {
     width: 160px;
-    position: relative;
-    translate: 200ox;
+    position: absolute;
+    top: 1px;
+    right: 0;
     font-size: 16px;
     margin: 8px;
+    z-index: 3;
 }
-
-.header__img--wrapper {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-
-}
-
-.header__img {
-    width: 90%;
-    height: 75%;
-    max-width: 700px;
-}
-
 
 .header__customers--title {
     font-size: 12px;
@@ -163,10 +161,25 @@ li {
     margin-top: 80px;
 }
 
-.header__customers {
+.header__customers--img {
     width: 100%;
     margin-top: 16px;
-    padding-right: 128px;
     opacity: 0.5; 
 }
 
+.img__container {
+    width: calc(100% - 40%);
+}
+
+/*.header__img--wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/.header__img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
