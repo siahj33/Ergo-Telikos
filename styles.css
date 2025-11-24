@@ -6,6 +6,15 @@
     font-family: "Inter", "Roboto", sans-serif;
 }
 
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
 .purple {
     color: #6415ff;
 }
@@ -19,9 +28,6 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-
 }
 
 .nav__row {
@@ -102,16 +108,18 @@ li {
 
 .header__row {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header__description {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: calc(100% - 60%);
 }
 
 .header {
-    font-size: 36px;
+    font-size: 48px;
     color: #1a202c;
 }
 
@@ -167,19 +175,12 @@ li {
     opacity: 0.5; 
 }
 
-.img__container {
+.header__img--wrapper {
     width: calc(100% - 40%);
-}
 
-/*.header__img--wrapper {
+}    
+
+.header__img {
     width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-/.header__img {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    max-width: 768px;
 }
