@@ -10,6 +10,15 @@ h1 {
     font-size: 48px;
 }
 
+h2 {
+    font-size: 24px;
+    color: #243e63;
+}
+
+h4 {
+    color: #6415ff;
+}
+
 p {
     font-size: 18px;
     line-height: 1.5;
@@ -101,7 +110,7 @@ li {
     text-wrap: nowrap;
 }
 
-.header__container {
+.container {
     width: 100%;
     padding: 96px 0;
 }
@@ -184,3 +193,116 @@ li {
     width: 100%;
     max-width: 768px;
 }
+
+/*
+
+FEATURES 
+
+*/
+
+.features__container {
+    padding: 80px 0;
+}
+
+.features__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.features__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.features__description--tag {
+    letter-spacing: 1.6px;
+    font-weight: 700;
+}
+    
+.features__description--title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.5;
+    margin: 16px 0;
+    letter-spacing: 0.025em;
+    color: rgb(36, 62, 99);
+}
+
+.features__description--para {
+    font-weight: 500;
+    color:#7c8ba1;
+    width: 45%;
+}
+
+.feature__row {
+    display: flex;
+    align-items: start;
+    padding: 32px 24px;
+    width: calc(100%/3);
+    margin: 0 auto;
+}
+
+.feature__img--wrapper {
+    border: 1px solid #e5e7eb;
+    border-radius: 50px;
+    padding: 20px
+}
+
+.feature__title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.feature__info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.feature__info {
+    margin-top: 8px;
+    margin-left: 16px;
+    
+
+}
+
+.feature__para {
+    line-height: 1.6;
+    margin-top: 16px;
+    color: #7c8ba1;
+    font-size: 16px;
+}
+
+/*
+
+QUALITY 
+
+*/
+
+/*
+
+STEPS 
+
+*/
+
+/*
+
+VALUES 
+
+*/
+
+/*
+
+PRICING 
+
+*/
+
+/*
+
+TESTIMONIALS 
+
+*/
