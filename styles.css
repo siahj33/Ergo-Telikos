@@ -16,6 +16,9 @@ h2 {
 }
 
 h4 {
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    font-weight: 700;
     color: #6415ff;
 }
 
@@ -205,10 +208,12 @@ FEATURES
 }
 
 .features__row {
+    width: 100%;
+    max-width: 1024px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .features__description {
@@ -238,6 +243,12 @@ FEATURES
     width: 45%;
 }
 
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
 .feature__row {
     display: flex;
     align-items: start;
@@ -245,6 +256,7 @@ FEATURES
     width: calc(100%/3);
     margin: 0 auto;
 }
+
 
 .feature__img--wrapper {
     border: 1px solid #e5e7eb;
