@@ -348,14 +348,12 @@ QUALITY
     border-radius: 4px;
     margin: 0 56px;
     width: 50%;
-    width: 550px;
-    
+    width: 550px;  
 }
 
 
 img {
     width: 100%;
-
 }
 
 /*
@@ -364,6 +362,14 @@ STEPS
 
 */
 
+#steps {
+    padding: 0 32px;
+}
+
+/*.steps__container {
+
+}*/
+
 .steps__row {
     display: flex;
     justify-content: space-between;
@@ -371,7 +377,7 @@ STEPS
 }
 
 .steps__description {
-    padding: 32px 0 0 64px;
+    padding: 32px 0 32px 64px;
     width: 50%;
 }
 
@@ -418,6 +424,40 @@ STEPS
 VALUES 
 
 */
+
+.values__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.value__title {
+    display: flex;
+}
+
+.value {
+    display: flex;
+}
+
+.value__title--img {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    background-color: lightgreen;
+    opacity: 0.7;
+}
+
+.value__title {
+    align-items: center;
+}
+
+.value__name {
+    margin-left: 12px;
+}
 
 /*
 
