@@ -343,12 +343,11 @@ QUALITY
 }
 
 .quality__img--wrapper {
-    width: 100%;
     border: 1px solid #e5e7eb;
     border-radius: 4px;
     margin: 0 56px;
     width: 50%;
-    width: 550px;  
+    max-width: 550px;  
 }
 
 
@@ -431,6 +430,26 @@ VALUES
     align-items: center;
 }
 
+.values {
+    width: 50%;
+    padding: 32px 64px 32px 0;
+}
+
+.values__description--title {
+    margin: 16px 0 32px 0;
+    line-height: 1.25;
+}
+
+.values__description--para {
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.625;
+}
+
+.value__description {
+    margin: 32px 32px 0 0;
+}
+
 .value__title {
     display: flex;
 }
@@ -457,6 +476,14 @@ VALUES
 
 .value__name {
     margin-left: 12px;
+}
+
+.values__img--wrapper {
+    width: 100%;
+}
+
+.values__img {
+    width: 50%;
 }
 
 /*
