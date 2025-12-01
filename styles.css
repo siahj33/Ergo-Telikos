@@ -35,16 +35,17 @@ p {
     color: #6415ff;
 }
 
-#landing {
+#landing, 
+#features,
+#quality,
+#steps, 
+#values,
+#pricing, 
+#testimonials,
+#start {
     padding: 0 32px;
 }
 
-
-.row {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .nav__row {
     display: flex;
@@ -118,11 +119,13 @@ li {
 }
 
 .container {
-    width: 100%;
     padding: 96px 0;
 }
 
-.header__row {
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -193,7 +196,6 @@ li {
 
 .header__img--wrapper {
     width: calc(100% - 40%);
-
 }    
 
 .header__img {
@@ -206,10 +208,6 @@ li {
 FEATURES 
 
 */
-
-.features__container {
-    padding: 80px 0;
-}
 
 .features__row {
     width: 100%;
@@ -297,18 +295,13 @@ QUALITY
 
 */
 
-.quality__container {
-    display: flex;
-}
-
 .quality__row {
     display: flex;
     justify-content: space-between;
 }
 
 .quality__description {
-    width: 90%;
-    max-width: 576px;
+    width: 50%;
     margin-right: 64px;
     display: flex;
     flex-direction: column;
@@ -318,6 +311,7 @@ QUALITY
 .quality__description--title {
     margin: 16px 0;
     line-height: 1.25;
+    width: 90%;
 }
 
 .quality__description--para {
@@ -336,7 +330,7 @@ QUALITY
 }
 
 .quality__description--img {
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -346,7 +340,6 @@ QUALITY
     border: 1px solid #e5e7eb;
     border-radius: 4px;
     margin: 0 56px;
-    width: 50%;
     max-width: 550px;  
 }
 
@@ -361,18 +354,8 @@ STEPS
 
 */
 
-#steps {
-    padding: 0 32px;
-}
-
-/*.steps__container {
-
-}*/
-
-.steps__row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.steps__description--img {
+    width: 50%;
 }
 
 .steps__description {
@@ -424,12 +407,6 @@ VALUES
 
 */
 
-.values__row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .values {
     width: 50%;
     padding: 32px 64px 32px 0;
@@ -456,6 +433,7 @@ VALUES
 
 .value {
     display: flex;
+    justify-content: space-between;
 }
 
 .value__title--img {
@@ -478,12 +456,17 @@ VALUES
     margin-left: 12px;
 }
 
-.values__img--wrapper {
-    width: 100%;
+.value__title--btn {
+    margin-top: 48px;
+    text-wrap: nowrap;
 }
 
-.values__img {
+.values__description--img {
     width: 50%;
+}
+
+.values__img--wrapper {
+    width: 100%;
 }
 
 /*
