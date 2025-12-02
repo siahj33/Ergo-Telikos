@@ -29,6 +29,7 @@ h4 {
 p {
     font-size: 18px;
     line-height: 1.5;
+    color: #7c8ba1;
 }
 
 .purple {
@@ -40,7 +41,7 @@ p {
 #quality,
 #steps, 
 #values,
-#pricing, 
+#price, 
 #testimonials,
 #start {
     padding: 0 32px;
@@ -467,7 +468,8 @@ VALUES
 
 .value__title--btn {
     margin-top: 48px;
-    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .values__description--img {
@@ -483,6 +485,24 @@ VALUES
 PRICING 
 
 */
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.price__description--title {
+    margin: 16px 0;
+}
+
+.price__description--para {
+    font-weight: 500;
+    line-height: 1.625;
+    width: 548px;
+}
 
 /*
 
