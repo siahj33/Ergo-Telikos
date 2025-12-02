@@ -470,6 +470,7 @@ VALUES
     margin-top: 48px;
     font-size: 14px;
     font-weight: bold;
+    height: 45px;
 }
 
 .values__description--img {
@@ -486,6 +487,10 @@ PRICING
 
 */
 
+.price__row {
+    display: flex;
+    flex-direction: column;
+}
 .price {
     display: flex;
     flex-direction: column;
@@ -502,6 +507,54 @@ PRICING
     font-weight: 500;
     line-height: 1.625;
     width: 548px;
+}
+
+.plan__card {
+    position: relative;
+    width: 100%;
+    max-width: 24rem;
+    border: 2px solid #243e63;
+    background-color: #0e55b8;
+    border-radius: 0.5rem;
+    margin: 64px 32px 0 0;
+    padding: 8px 32px 0;
+    text-align: center;
+}
+
+.plan__stripe {
+    position: absolute;
+    color: #f7fafc;
+    background: rgba(56, 178, 172);
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.plan__top {
+    padding: 20px 0;
+    line-height: 1.625;
+}
+
+.plan__title {
+    color: #1a202c;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.plan__price {
+    color: #1a202c;
+    font-weight: bold;
+    font-size: 48px;
+    margin: 4px 0;
+}
+
+.plan__duration {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
 
 /*
