@@ -509,6 +509,12 @@ PRICING
     width: 548px;
 }
 
+.plans {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .plan__card {
     position: relative;
     width: 100%;
@@ -587,9 +593,11 @@ PRICING
 
 .price__btn {
     font-size: 14px;
+    font-weight: 700;
     width: 100%;
     color: #f7fafc;
     padding: 16px 32px;
+    background: linear-gradient(to right, #38b2ac, #81e6d9);
 }
 
 /*
