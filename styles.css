@@ -512,10 +512,10 @@ PRICING
 .plan__card {
     position: relative;
     width: 100%;
-    max-width: 24rem;
-    border: 2px solid #243e63;
-    background-color: #0e55b8;
-    border-radius: 0.5rem;
+    max-width: 384px;
+    border: 1px solid #e5e7eb;
+    background-color: #fff;
+    border-radius: 8px;
     margin: 64px 32px 0 0;
     padding: 8px 32px 0;
     text-align: center;
@@ -553,8 +553,43 @@ PRICING
 
 .plan__duration {
     font-size: 16px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     font-weight: bold;
+}
+
+.plan__middle {
+    margin: 0 -32px;
+    padding: 32px;
+    border-top: 2px solid #e5e7eb;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+
+.plan__target {
+    color: #1a202c;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.plan__feature {
+    margin-top: 20px;
+    font-weight: 500;
+    color: #718096;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.plan__bottom {
+    padding: 32px;
+}
+
+.price__btn {
+    font-size: 14px;
+    width: 100%;
+    color: #f7fafc;
+    padding: 16px 32px;
 }
 
 /*
