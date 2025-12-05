@@ -672,6 +672,10 @@ TESTIMONIALS
     padding-left: 64px;
 }
 
+.test__description--title {
+    margin: 16px 0 32;
+}
+
 .testimonial {
     margin-top: 40px;
 }
@@ -721,9 +725,14 @@ TESTIMONIALS
 }
 
 .test__button {
+    margin: 0 12px;
+}
+
+.test__btn {
     padding: 16px;
+    margin: 0 12px;
+    border: none;
     background: #edf2f7;
     border-radius: 50%;
-    margin: 0 12px;
-
+    cursor: pointer;
 }
