@@ -673,7 +673,7 @@ TESTIMONIALS
 }
 
 .test__description--title {
-    margin: 16px 0 32;
+    margin: 16px 0 32px;
 }
 
 .testimonial {
@@ -724,8 +724,8 @@ TESTIMONIALS
     font-size: 16px;
 }
 
-.test__button {
-    margin: 0 12px;
+i {
+    font-size: 14px;
 }
 
 .test__btn {
@@ -735,4 +735,16 @@ TESTIMONIALS
     background: #edf2f7;
     border-radius: 50%;
     cursor: pointer;
+    transition: all 300ms ease;
 }
+
+.test__btn:hover {
+    background: #e5e7eb;
+}
+
+/*
+
+START 
+
+*/
+
