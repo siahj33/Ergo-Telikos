@@ -748,3 +748,71 @@ START
 
 */
 
+.start__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 96px 0;
+    background: #6415ff;
+    border-radius: 8px;
+}
+
+.start__row {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.start__description {
+    width: 50%;
+}
+
+.start__description--title {
+    color: #f7fafc;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.start__buttons {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.start__btn {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 50px;
+    margin: 0 12px;
+    transition: all 300ms ease;
+    color: #f7fafc;
+}
+
+.start__btn:nth-child(1) {
+    background: #f56565;
+}
+
+.start__btn:nth-child(1):hover {
+    background: #e53e3e;
+}
+
+.start__btn:nth-child(2) {
+    background: #6415ff;
+    color: #faf7fc;
+    border: 1px solid #faf7fc;
+}
+
+.start__btn:nth-child(2):hover {
+    background: #e2e8f0;
+    color: #6415ff;
+}
+
+
+
