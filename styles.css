@@ -788,7 +788,7 @@ START
 .start__btn {
     font-size: 16px;
     font-weight: 700;
-    padding: 16px 32px;
+    padding: 20px 40px;
     border-radius: 50px;
     margin: 0 12px;
     transition: all 300ms ease;
@@ -814,5 +814,36 @@ START
     color: #6415ff;
 }
 
+/*
 
+FOOTER 
 
+*/
+
+.footer__row {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__column--links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+}
