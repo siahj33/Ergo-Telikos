@@ -814,6 +814,10 @@ START
     color: #6415ff;
 }
 
+main {
+    margin-bottom: 96px;
+}
+
 /*
 
 FOOTER 
@@ -828,6 +832,13 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: start;
+}
+
+.footer__columns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+
 }
 
 .footer__column--title {
@@ -852,7 +863,7 @@ footer {
     text-decoration: none;
 }
 
-.footer__column--link::after {
+.footer__column--link:after {
     content: "";
     display: block;
     width: 100%;
