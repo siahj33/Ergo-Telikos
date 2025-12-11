@@ -519,7 +519,6 @@ PRICING
 .plans {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -938,13 +937,16 @@ footer {
     padding: 8px;
     background: #f7fafc;
     border-radius: 50%;
-    height: 16px;
-    width: 16px;
 }
 
 .footer__social--link:hover {
     background: #cbd5e0;
     text-decoration: none;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: center;
 }
 
 
