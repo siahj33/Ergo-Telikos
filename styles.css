@@ -837,8 +837,7 @@ footer {
 .footer__columns {
     display: flex;
     justify-content: space-between;
-    width: 100%
-
+    width: 100%;
 }
 
 .footer__column--title {
@@ -851,22 +850,27 @@ footer {
     margin-top: 24px;
 }
 
-.footer__column--link {
+.footer__column--link,
+.nav__link {
     font-size: 14px ;
     margin-top: 12px;
     line-height: 1.5;
     font-weight: 500;
     position: relative;
+    width: fit-content;
 }
 
-.footer__column--link:hover {
+.footer__column--link:hover,
+.nav__link:hover {
     text-decoration: none;
 }
 
-.footer__column--link:after {
+
+.footer__column--link:after,
+.nav__link:after {
     content: "";
     display: block;
-    width: 100%;
+    width: 0%;
     height: 2px;
     background: #fff;
     position: absolute;
@@ -876,9 +880,13 @@ footer {
     opacity: 0;
 }
 
-.footer__column--link:hover::after {
+.footer__column--link:hover::after,
+.nav__link:hover::after {
+    width: 100%;
     opacity: 1;
 }
+
+
 
 .footer__column,
 .footer__column--links {
@@ -936,3 +944,10 @@ footer {
     background: #cbd5e0;
     text-decoration: none;
 }
+
+
+/*
+
+SMALL DEVICES 
+
+*/
