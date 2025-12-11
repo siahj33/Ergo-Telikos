@@ -519,6 +519,7 @@ PRICING
 .plans {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -837,6 +838,7 @@ footer {
 .footer__columns {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
 }
 
