@@ -881,6 +881,10 @@ footer {
     opacity: 0;
 }
 
+.nav__link--dark:after {
+    background: #6415ff;
+}
+
 .footer__column--link:hover::after,
 .nav__link:hover::after {
     width: 100%;
