@@ -871,7 +871,7 @@ footer {
 .nav__link:after {
     content: "";
     display: block;
-    width: 0%;
+    width: 100%;
     height: 2px;
     background: #fff;
     position: absolute;
@@ -959,3 +959,50 @@ footer {
 SMALL DEVICES 
 
 */
+
+@media (max-width: 1024px) {
+
+    .nav__row {
+        display: block;
+    }
+
+    .nav__links {
+        flex-direction: column;
+        display: none;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .header__description {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 512px;
+        text-align: center;
+    }
+
+    .header {
+        text-align: center;
+        width: 100%;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .header__description--para {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+    .header__customers--title {
+        margin-top: 48px;
+    }
+
+    .header__img--wrapper {
+        width: 100%;
+        max-width: 512px;
+        margin-top: 48px;
+}
+
+}
