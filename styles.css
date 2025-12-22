@@ -831,6 +831,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: start;
+    padding: 0 32px;
 }
 
 .footer__columns {
@@ -955,7 +956,7 @@ footer {
 
 /*
 
-SMALL DEVICES 
+TABLETS AND IPADS 
 
 */
 
@@ -1003,47 +1004,91 @@ SMALL DEVICES
         max-width: 512px;
         margin-top: 48px;
     }
-    
+
     .features__description--para {
         font-size: 16px;
     }
-    
+
     .features {
         max-width: 768px;
     }
-    
+
     .feature__row {
         width: calc(100% / 2);
     }
-    
+
     .quality__description--title {
         font-size: 36px;
     }
-    
+
     .quality__description--para {
         font-size: 16px;
     }
-    
+
     h1 {
         font-size: 36px;
     }
-    
+
     p {
         font-size: 14px;
     }
-    
+
     .value {
         max-width: 320px;
         flex-direction: column;
     }
-    
+
     .values__description--para {
         font-size: 16px;
     }
-    
+
     .plans {
         flex-direction: column;
         align-items: center;
     }
+
+    .test__description--para {
+        font-size: 16px;
+    }
+
+    .test__img--wrapper {
+        width: 40%;
+    }
+
+    .testimonials__sec {
+        width: 60%;
+        padding-left: 48px;
+    }
+
+    .test__description--title {
+        margin-bottom: 24px;
+    }
+
+    .start__row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .start__buttons {
+        margin-top: 24px;
+        width: auto;
+    }
+
+    .footer {
+        padding: 80px 32px;
+    }
+
+
+}
+
+/*
+
+SMALL DEVICES 
+
+*/
+
+@media (max-width: 768px) {
+
     
+
 }
