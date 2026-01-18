@@ -1089,6 +1089,88 @@ SMALL DEVICES
 
 @media (max-width: 768px) {
 
-    
+    .features__description--title {
+        font-size: 48px;
+    }
+
+    .features__description--para {
+        font-size: 14px;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .quality__row {
+        flex-direction: column-reverse;
+    }
+
+    .quality__description,
+    .quality__description--img {
+        width: 100%;
+        max-width: 550px;
+        margin: 0;
+    }
+
+    .quality__description {
+        margin-top: 64px;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .quality__description--para {
+        font-size: 14px;
+    }
+
+    #steps .row {
+        flex-direction: column;
+    }
+
+    .steps__description {
+        padding: 0;
+        text-align: center;
+        margin-top: 48px;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step__description {
+        margin-left: 0;
+        margin-top: 12px;
+    }
+
+    #values .row {
+        flex-direction: column-reverse;
+    }
+
+    .values {
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+        margin-top: 48px;
+        padding-right: 0;
+    }
+
+    .value__description {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .value {
+        align-items: center;
+        justify-content: center;
+        margin: auto
+    }
+
+    .value__title {
+        justify-content: center;
+    }
 
 }
